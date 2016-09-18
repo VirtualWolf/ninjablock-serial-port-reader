@@ -8,7 +8,7 @@ As it turns out, it's dead simple to read directly from the serial port on the N
 
 1. Upgrade `npm` for support for '^' in version requirements: `sudo npm install -g npm@1.3.17`
 2. Install the two dependencies: `npm install`
-3. Edit `index.js` and enter your device ID(s) on line 19 and the endpoint to post to on line 24
+3. Edit `index.js` and enter your device ID(s) on line 23 and the endpoint to post to on line 28
 4. Shut down the `ninjablock` service: `sudo service ninjablock stop`
 5. Run the application: `npm start`
 
