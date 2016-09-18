@@ -12,4 +12,4 @@ As it turns out, it's dead simple to read directly from the serial port on the N
 4. Shut down the `ninjablock` service: `sudo service ninjablock stop`
 5. Run the application: `npm start`
 
-Set the environment variable {{DEBUG=true}} to print the data received to the console.
+Set the environment variable `DEBUG=true` to print the data received to the console.
