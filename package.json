@@ -1,0 +1,14 @@
+{
+  "name": "ninjablock-serial-port-reader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "VirtualWolf <virtualwolf@virtualwolf.org>",
+  "license": "MIT",
+  "scripts": {
+      "start": "node index.js"
+  },
+  "dependencies": {
+    "serialport": "1.4.6",
+    "request": "2.19.0"
+  }
+}
